@@ -1,0 +1,135 @@
+
+/* ===============navbar part start hear =================== */
+@media screen and (max-width:575.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        width: 380px;
+    }
+    nav,
+    .banner,
+    .playInstant{
+        flex-direction: column;
+    }
+    .frame {
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+nav> ul{
+    flex-direction: column;
+    gap: 30px;
+}
+    #banner{
+        padding-top: 60px;
+    }
+    .banner{
+        max-width: 460px;
+    }
+    .bannerContent{
+        padding-bottom: 50px;
+    }
+    .horizantlyPic img{
+        max-width: 420px;
+        height: 550px;
+    }
+    #onlineGames {
+        padding: 70px 0;
+    }
+    .onlineGames {
+        max-width: 460px;
+    }
+    #playInstant{
+        padding-bottom: 70px;
+    }
+    .playInstant{
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .p-InstantContent{
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    .p-Instantpic {
+        max-width: 380px;
+        max-height: 320px;
+    }
+    .p-smallIn-pic {
+        top: -210px;
+        max-width: 170px;
+        max-height: 200px;
+    }
+    #storeGames{
+        padding: 70px 0;
+    } 
+    .storeGames{
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .storeGamesDes {
+        padding: 7px;
+    }
+    .storeGamePic img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .storeGameName h5 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .games{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 30px;
+    }
+    .game{
+       margin: 0 60px;
+    }
+    .storeGamesDeSmall{
+        display: block;
+    }
+    .storegames1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .storegames2{
+        display: none;
+    }
+    .footer{
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .outStory{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+        text-align: center;
+    }
+    .socialIcon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 30px;
+        text-align: center;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .teamCondition{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+       padding: 40px 55px;
+        text-align: center;
+    }
+    .copyright{
+        padding: 0 55px;
+        text-align: center;
+    }
+    .copyright br{
+        display: block;
+    }
+}
+
+/* ===============navbar part end   hear =================== */
+/* ===============navbar part start hear =================== */
+/* ===============navbar part end   hear =================== */
